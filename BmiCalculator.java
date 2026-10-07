@@ -41,12 +41,9 @@ public class BmiCalculator {
             System.out.println("Underweight");
         }
         
-        if (bmi <=  18.5 && bmi <= 24.9 ){
-            System.out.println("Category: Keep it up");
-        }
-        else{
-            System.out.println("Category: See a Doctor");
-        }
+        String advice = (bmi >= 18.5 && bmi <= 24.9) ? "KEEP IT UP" : "SEE A DOCTOR";
+        System.out.println("Advice: " + advice);
+
         scn.close();
 
     }
