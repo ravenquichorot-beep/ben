@@ -9,6 +9,7 @@ public class hand4{
         System.out.println("Input your pin: ");
         int usersPin = scn.nextInt();
         int correctPin = 1234;
+        
 
         if (correctPin == usersPin){
             System.out.println("Correct");
